@@ -388,6 +388,10 @@ footer{
 }
 
 @media screen and (max-width: 1400px){
+    body{
+        overflow-x: hidden;
+    }
+
     .skills .flex{
         flex-direction: column;
         
