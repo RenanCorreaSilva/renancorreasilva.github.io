@@ -182,6 +182,13 @@ nav .menu li{
     list-style-type: none;
 }
 
+.menu-mobile i{
+    position: absolute;
+    top: 30px;
+    font-size: 30px;
+    color: aqua;
+}
+
 
 .home{
     margin-top: 100px;
@@ -402,9 +409,52 @@ footer{
         width: 100%;
     }
 
-    .cardSlide .btn, .cardSlide2 .btn, .cardSlide3 .btn {
-        margin-left: 250px;
+    .cardSlide .btn, .cardSlide2 .btn, .cardSlide3 .btn, .cardSlide4 .btn {
+       margin-left: 250px;
     }
+}
+
+@media screen and (max-width: 850px){
+
+
+    .chamada{
+        position: absolute;
+        top: -10px;            
+    }
+    
+    .chamada h2{
+        margin-top: 500px;
+        text-align: center;
+    }
+
+    .chamada p{
+        text-align: center;
+    }
+
+    .chamada .btn{
+        margin-left: 220px;
+    }
+
+    .icon{
+        left: -120px;
+    }
+
+    .seta{
+        bottom: -25px;
+    }
+
+    .menu{
+        display: none;
+    }
+
+    .menu-mobile{
+        display: block;
+    }
+
+    .cardSlide .btn, .cardSlide2 .btn, .cardSlide3 .btn, .cardSlide4 .btn {
+        margin-left: 100px;
+     }
+
 }
 
 
@@ -471,3 +521,97 @@ footer{
             width: 100%;
         }
 }
+
+
+@media screen and (max-width:560px){
+    .chamada{
+        position: absolute;
+        top: -10px;            
+    }
+    
+    .chamada h2{
+        margin-top: 500px;
+        text-align: center;
+    }
+
+    .chamada p{
+        text-align: center;
+    }
+
+    .chamada .btn{
+        margin-left: 100px;
+    }
+
+    .icon{
+        left: 50px;
+    }
+
+    .skills{
+        height: 1600px;
+    }
+
+
+    .card1{
+        width: 100%;
+    }
+
+    .cardSlide .btn, .cardSlide2 .btn, .cardSlide3 .btn, .cardSlide4 .btn{
+        margin-left: -20px;
+    }
+
+    .sobre{
+        height: 850px;
+    }
+
+    .about .btn{
+        display: flex;
+        flex-direction: column;
+        width: 200px;
+    }
+
+    .about .btn a{
+        margin: 10px;
+    }
+
+
+    footer{
+        display: inline-block;
+        height: 150px;
+    }
+
+    .direitos{
+        margin-left: 50px;
+    }
+
+    .social{
+        width: 100%;
+    }
+}   
+
+
+@media screen and (max-width: 480px) {
+    .icon{
+        width: 480px;
+        left: 40px;
+    }
+
+    .home{
+        height: 1000px;
+    }
+
+
+
+    .chamada .btn{
+        width: 80%;
+        margin-left: 50px;
+    }
+
+    .sobre{
+        height: 1000px;
+    }
+
+    .projetos .btn{
+        margin-left: -60px;
+    }
+}
+
