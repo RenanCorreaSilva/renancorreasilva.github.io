@@ -467,6 +467,10 @@ footer{
             display: block;
         }
 
+        .home{
+            height: 1000px;
+        }
+
         .chamada{
             position: absolute;
             top: -10px;            
@@ -482,7 +486,17 @@ footer{
         }
 
         .chamada .btn{
-            margin-left: 150px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 50%;
+            margin: 10px;
+        }
+
+        .chamada .btn a{ 
+            margin-bottom: 10px;
+            margin-left: 70px;
         }
 
         .skills{
