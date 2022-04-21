@@ -655,7 +655,17 @@ footer{
     }
 
     .sobre{
-        height: 1000px;
+        display: inline-block;
+        height: 1300px;
+    }
+
+    .sobre .foto{
+        width: 80%;
+        margin-left: 50px;
+    }
+
+    .about{
+        width: 80%;
     }
 
     .projetos .btn a{
