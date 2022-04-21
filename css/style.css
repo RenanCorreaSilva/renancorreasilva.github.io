@@ -510,7 +510,18 @@ footer{
 
         .cardSlide .btn, .cardSlide2 .btn, .cardSlide3 .btn, .cardSlide4 .btn{
             margin-left: -20px;
+
         }
+
+        .cardSlide p img, .cardSlide2 p img, .cardSlide3 p img, .cardSlide4 p img{
+            width: 400px;
+            margin-left: -50px;
+        }
+
+        .cardSlide .btn a, .cardSlide2 .btn a, .cardSlide3 .btn a, .cardSlide4 .btn a{
+            margin: 10px;
+        }
+
 
         .sobre{
             height: 850px;
