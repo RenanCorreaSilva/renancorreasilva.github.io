@@ -508,10 +508,6 @@ footer{
         }
 
 
-        .card1{
-            width: 100%;
-        }
-
         .cardSlide .btn, .cardSlide2 .btn, .cardSlide3 .btn, .cardSlide4 .btn{
             margin-left: -20px;
         }
@@ -556,19 +552,7 @@ footer{
 
 
 @media screen and (max-width:560px){
-    .chamada{
-        position: absolute;
-        top: -10px;            
-    }
     
-    .chamada h2{
-        margin-top: 500px;
-        text-align: center;
-    }
-
-    .chamada p{
-        text-align: center;
-    }
 
     .chamada .btn{
         margin-left: 100px;
@@ -650,7 +634,7 @@ footer{
     }
 }
 
-@media screen and (max-width : 360px){
+@media screen and (max-width : 350px){
 
 
     .icon{
