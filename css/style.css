@@ -1,0 +1,473 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Montserrat', sans-serif;
+
+}
+
+body,html{
+    height: 100%;
+    background-color: #040a14
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background:#09162c;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: aqua;
+    border-radius: 5px;
+  }
+  
+/** FRAMEWORK **/
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.btn {
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.btn a{
+    margin-left: 25px;
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+    border: 2px solid aqua;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.btn span{
+    padding-left: 20px;
+}
+
+.btn :hover{
+    background: rgba(250, 250, 250, 0.116);
+}
+
+
+.clear{
+    clear: both;
+}
+
+.flex{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.card{
+    margin: 20px;
+    border: 1px solid aqua;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #040a14;
+}
+
+.card i{
+    padding: 20px;
+}
+
+.card h2{
+    padding: 20px;
+    text-transform: uppercase;
+}
+
+.card p{
+    padding: 20px;
+}
+
+
+
+
+
+/** ---------- FRAMEWORK ------------**/
+
+
+/*------------ SITE ---------*/
+
+
+header{
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    top: 0;
+}
+
+header nav{
+    display: fixed;
+    border-bottom: 5px solid #112c4bfd;
+    width: 100%;
+    height: 100px;
+    padding: 0 15%;
+    background-color: #050d1a;
+}
+
+header nav h2 a{
+    float: left;
+    background-color: transparent;
+    padding: 25px 2%;
+    font-size: 30px;
+    color: aqua;
+    text-decoration: none;
+}
+
+header nav ul li a{
+    background-color: transparent;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+    transition:0.3s;
+}
+
+
+nav ul a:hover{
+
+    border-bottom: 3px solid aqua;
+
+}
+
+nav .menu{
+    background-color: transparent;
+    float: right;
+    padding: 35px 2%;  
+}
+
+nav .menu li{
+    font-size: 20px;
+    padding-right: 15px;
+    background-color: transparent;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.menu-mobile{
+    display: none;
+    float: right;
+    width: 28px;
+    height: 28px;
+    margin-top: 7px;
+    cursor: pointer;
+    margin-top: 20px;
+
+}
+
+.menu-mobile ul{
+    display: none;
+    z-index: 999;
+    width: 100%;
+    text-align: center;
+    background-color:#0c1e33;
+    position: absolute;
+    right: 0;
+    top: 90px;
+}
+
+
+.menu-mobile li{
+    padding: 10px 0;
+    text-transform: uppercase;
+    list-style-type: none;
+}
+
+
+.home{
+    margin-top: 100px;
+    padding-top: 200px;
+    height: 900px;
+    background: linear-gradient(0deg, #050d1a 0%, rgba(2,1,8,1) 100%);
+}
+
+.chamada{
+    width: 100%;
+    font-size: 35px;
+    float: left;
+    color: aqua;
+    padding: 100px 0;
+}
+
+
+
+.chamada h2{
+    padding-bottom: 25px;
+}
+
+.chamada .btn{
+    float: left;
+}
+
+.chamada img{
+    position: relative;
+    float: right;
+    animation: move 1s infinite;
+}
+
+@keyframes move {
+    0%   {top: 0px;}
+    50% {top: 20px;}
+    100% {top: 0px;}
+
+}
+
+.seta{
+    position: absolute; 
+    bottom: 50px; 
+    width: 50px; 
+    left: 49%;
+    z-index: 999;
+    animation: down 1.5s infinite forwards;
+}
+
+@keyframes down{
+    0% {
+        opacity: 0;
+        transform: translate3d(0, -15px, 0);
+      }
+      30% {
+        opacity: 0;
+      }
+      60% {
+        opacity: 1;
+      }
+      100% {
+        opacity: 0;
+        transform: translate3d(0, 10px, 0);
+      }
+}
+
+.skills{
+    margin-top: 80px;
+    height: 550px;
+    width: 100%;
+    background-color: #050d1a;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.skills h2:first-child {
+    display: inline-block;
+    color: white;
+    margin-bottom: 1rem;
+    border-bottom: 5px solid aqua;
+}
+
+.projetos{
+    text-align: center;
+    margin-top: 50px;
+    width: 100%;
+    padding: 50px;
+}
+
+.projetos h2:first-child {
+    display: inline-block;
+    color: white;
+    margin-bottom: 1rem;
+    border-bottom: 5px solid aqua;
+}
+
+
+.projetosflex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.card1{
+    margin: 20px;
+    padding: 50px;
+    color: white;
+    text-align: center;
+    width: 30%;
+    border-right: 5px double aqua;
+
+}
+
+.card1 p img{
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.card1 p{
+    padding: 15px;
+}
+
+.card1 span{
+    color: aqua;
+    font-weight: bold;
+}
+
+.cardSlide .btn, .cardSlide2 .btn, .cardSlide3 .btn, .cardSlide4 .btn {
+    margin-left: -30px;
+}
+
+.cardSlide .btn i, .cardSlide2 .btn i, .cardSlide3 .btn i, .cardSlide4 .btn i{
+    padding-right: 8px;
+}
+
+.sobre{
+    margin-top: 50px;
+    height: 520px;
+}
+
+
+.foto{
+    width: 30%;
+    padding-top: 20px;
+    float: left;
+}
+
+
+.foto img{
+    width: 100%;
+    border: 5px solid aqua;
+}
+
+.about{
+    width: 60%;
+    float: right;
+    padding-top: 50px;
+}
+
+.about h2{
+    width: 150px;
+    color: white;
+    border-bottom: 5px solid aqua;
+}
+
+.about p{
+    color: white;
+    font-size: 25px;
+    padding: 2%;
+
+}
+
+footer{
+    width: 100%;
+    text-align: center;
+    height: 50px;
+    background-color: #050d1a;
+}
+
+.direitos{
+    float: left;
+    margin-left: 200px;
+    padding: 20px;
+    color: white;
+}
+
+.social{
+    padding: 20px;
+    float: right;
+}
+
+.social i{
+    font-size: 20px;
+    color: white;
+    padding-right: 10px;
+}
+
+@media screen and (max-width: 1400px){
+    .skills .flex{
+        flex-direction: column;
+        
+    }
+
+
+    .skills{
+        height: 1500px;
+    }
+
+
+    .projetosflex{
+        flex-direction: column;
+        width: 100%;
+        align-items: center;    
+    }
+
+    .card1{
+        width: 100%;
+    }
+
+    .cardSlide .btn, .cardSlide2 .btn, .cardSlide3 .btn {
+        margin-left: 250px;
+    }
+}
+
+
+@media screen and (max-width: 768px){
+        .menu{
+            display: none;
+        }    
+
+        .menu-mobile {
+            display: block;
+        }
+
+        .chamada{
+            position: absolute;
+            top: -10px;            
+        }
+        
+        .chamada h2{
+            margin-top: 500px;
+            text-align: center;
+        }
+
+        .chamada p{
+            text-align: center;
+        }
+
+        .chamada .btn{
+            margin-left: 150px;
+        }
+
+        .skills{
+            height: 1600px;
+        }
+
+
+        .card1{
+            width: 100%;
+        }
+
+        .cardSlide .btn, .cardSlide2 .btn, .cardSlide3 .btn, .cardSlide4 .btn{
+            margin-left: -20px;
+        }
+
+        .sobre{
+            height: 850px;
+        }
+
+        .about .btn{
+            display: flex;
+            flex-direction: column;
+            width: 200px;
+        }
+
+        .about .btn a{
+            margin: 10px;
+        }
+
+
+        footer{
+            display: inline-block;
+        }
+
+        .social{
+            width: 100%;
+        }
+}
