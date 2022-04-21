@@ -634,3 +634,32 @@ footer{
     }
 }
 
+@media screen and (min-width: 0px){
+
+
+    .icon{
+        width: 480px;
+        left: 40px;
+    }
+
+    .home{
+        height: 1000px;
+    }
+
+
+
+    .chamada .btn{
+        width: 80%;
+        margin-left: 20px;
+
+    }
+
+    .sobre{
+        height: 1000px;
+    }
+
+    .projetos .btn a{
+        margin: 10px;
+    }
+}
+
