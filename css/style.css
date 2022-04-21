@@ -574,7 +574,8 @@ footer{
     }
 
     .cardSlide .btn, .cardSlide2 .btn, .cardSlide3 .btn, .cardSlide4 .btn{
-        margin-left: -20px;
+        display: flex;
+        flex-direction: column;
     }
 
     .sobre{
