@@ -520,6 +520,20 @@ footer{
             height: 850px;
         }
 
+        .sobre{
+            display: inline-block;
+            height: 1300px;
+        }
+    
+        .sobre .foto{
+            width: 80%;
+            margin-left: 50px;
+        }
+    
+        .about{
+            width: 80%;
+        }
+
         .about .btn{
             display: flex;
             flex-direction: column;
@@ -579,8 +593,10 @@ footer{
     }
 
     .sobre{
-        height: 850px;
+        height: 1300px;
     }
+
+    
 
     .about .btn{
         display: flex;
@@ -654,19 +670,7 @@ footer{
 
     }
 
-    .sobre{
-        display: inline-block;
-        height: 1300px;
-    }
-
-    .sobre .foto{
-        width: 80%;
-        margin-left: 50px;
-    }
-
-    .about{
-        width: 80%;
-    }
+   
 
     .projetos .btn a{
         margin: 10px;
