@@ -676,6 +676,9 @@ footer{
 
 
 @media screen and (max-width: 480px) {
+    .home{
+        height: 500px;
+    }
     
     .icon{
         margin-left: -20px;
