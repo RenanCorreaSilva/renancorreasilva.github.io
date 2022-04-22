@@ -712,14 +712,10 @@ footer{
         height: 1200px;
     }
     
-    .card1 img{
-        width: 60vh;
-        margin-left: -50px;
-    }
 }
 @media screen and (max-width : 380px){
     .home{
-        height: 800px;
+        height: 1000px;
     }
     
     
