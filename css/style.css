@@ -602,13 +602,28 @@ footer{
 @media screen and (max-width:560px){
     
 
+    
+
+    .chamada h2{
+        font-size: 30px;
+        margin-top: 150px;
+    }
+
+    .chamada  p{
+        font-size: 20px;
+    }
+
     .chamada .btn{
         margin-left: 100px;
     }
 
+    .chamada .btn a{
+        font-size: 15px;
+    }
+
     .icon{
-        width: 480px;
-        left: 40px;
+        width: 300px;
+        left: 100px;
     }
 
     .skills{
