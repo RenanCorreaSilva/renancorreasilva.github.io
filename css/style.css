@@ -676,10 +676,6 @@ footer{
 
 
 @media screen and (max-width: 480px) {
-    .home{
-        height: 1000px;
-    }
-    
     
     .icon{
         margin-left: -20px;
@@ -715,7 +711,7 @@ footer{
 }
 @media screen and (max-width : 380px){
     .home{
-        height:1000px;
+        height:1500px;
     }
     
     .sobre{
