@@ -677,11 +677,26 @@ footer{
 
 @media screen and (max-width: 480px) {
     
-
-    .home{
-        height: 1000px;
+    .icon{
+        margin-left: -20px;
     }
 
+    .home{
+        height: 500px;
+    }
+
+    .foto{
+        width: 50%;
+    }
+
+    .skills{
+        margin-top: -20px;
+    }
+
+    .about p{
+        font-size: 20px;
+        margin-left: -20px;
+    }
 
 
     .chamada .btn{
@@ -694,9 +709,10 @@ footer{
     }
 
 }
-
 @media screen and (max-width : 380px){
-
+    
+    
+    
     .sobre{
         height: 1500px;
     }
