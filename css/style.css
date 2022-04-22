@@ -715,10 +715,6 @@ footer{
     
 }
 @media screen and (max-width : 380px){
-    .home{
-        height:3500px;
-    }
-    
     .sobre{
         height: 1500px;
     }
