@@ -556,7 +556,8 @@ footer{
         }
 
         .card1{
-            border: none;
+           border-right: none;
+           border-bottom: 5px double aqua;
         }
 
 
