@@ -395,6 +395,35 @@ footer{
 }
 
 @media screen and (max-width: 1400px){
+    .home{
+        padding-top: 0px;
+        height: 570px;
+    }
+
+    .chamada img{
+        position: absolute;
+        right: 0;
+    }
+
+    .seta{
+        bottom:27px ;
+    }
+
+
+    .projetosflex{
+        width: 80%;
+        margin-left: 140px;
+    }
+
+ 
+    .cardSlide .btn, .cardSlide2 .btn, .cardSlide3 .btn, .cardSlide4 .btn{
+        margin-left: -90px;
+    }
+}
+
+
+
+@media screen and (max-width: 1000px){
     body{
         overflow-x: hidden;
     }
@@ -479,7 +508,7 @@ footer{
         }
 
         .home{
-            height: 1000px;
+            height: 800px;
         }
 
         .chamada{
@@ -488,7 +517,7 @@ footer{
         }
         
         .chamada h2{
-            margin-top: 500px;
+            margin-top: 300px;
             text-align: center;
         }
 
@@ -515,6 +544,11 @@ footer{
         }
 
 
+        .projetosflex{
+            margin-left: -10px;
+        }
+
+
 
         .cardSlide .btn a, .cardSlide2 .btn a, .cardSlide3 .btn a, .cardSlide4 .btn a{
             margin-bottom: 10px;
@@ -523,6 +557,7 @@ footer{
         .card1{
             border: none;
         }
+
 
 
         .sobre{
@@ -572,7 +607,8 @@ footer{
     }
 
     .icon{
-        left: 50px;
+        width: 480px;
+        left: 40px;
     }
 
     .skills{
@@ -624,10 +660,7 @@ footer{
 
 
 @media screen and (max-width: 480px) {
-    .icon{
-        width: 480px;
-        left: 40px;
-    }
+    
 
     .home{
         height: 1000px;
@@ -648,16 +681,6 @@ footer{
 
 @media screen and (max-width : 380px){
 
-
-    .icon{
-        width: 480px;
-        left: 40px;
-    }
-
-    .home{
-        height: 1000px;
-    }
-
     .sobre{
         height: 1500px;
     }
@@ -670,4 +693,5 @@ footer{
     }
 
 }
+
 
