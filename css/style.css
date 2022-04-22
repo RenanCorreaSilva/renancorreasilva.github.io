@@ -11,17 +11,22 @@ body,html{
     background-color: #040a14
 }
 
-::-webkit-scrollbar {
+::-webkit-scrollbar{
     width: 12px;
   }
   
-  ::-webkit-scrollbar-track {
+  ::-webkit-scrollbar-track{
     background:#09162c;
   }
   
-  ::-webkit-scrollbar-thumb {
+  ::-webkit-scrollbar-thumb{
     background: aqua;
     border-radius: 5px;
+  }
+
+  :root {
+    scrollbar-color: aqua #09162c ;
+    scrollbar-width: thin ;
   }
   
 /** FRAMEWORK **/
@@ -594,10 +599,9 @@ footer{
     }
 
     .sobre{
-        height: 1300px;
+        height: 1200px;
     }
 
-    
 
     .about .btn{
         display: flex;
@@ -643,7 +647,7 @@ footer{
     }
 
     .sobre{
-        height: 1000px;
+        height: 1200px;
     }
 
     .projetos .btn{
@@ -666,6 +670,10 @@ footer{
 
     .home{
         height: 1000px;
+    }
+
+    .sobre{
+        height: 1500px;
     }
 
     
