@@ -515,6 +515,7 @@ footer{
 
         .cardSlide p img, .cardSlide2 p img, .cardSlide3 p img, .cardSlide4 p img{
             width: 400px;
+            padding: 0 2%;
             margin-left: -50px;
         }
 
@@ -587,7 +588,10 @@ footer{
         flex-direction: column;
     }
 
-
+    .cardSlide p img, .cardSlide2 p img, .cardSlide3 p img, .cardSlide4 p img{
+        width: 350px;
+        margin-left: -50px;
+    }
 
     .sobre{
         height: 1300px;
@@ -645,6 +649,11 @@ footer{
     .projetos .btn{
         margin-left: -60px;
     }
+
+    .cardSlide p img, .cardSlide2 p img, .cardSlide3 p img, .cardSlide4 p img{
+        width: 300px;
+        margin-left: -60px;
+    }
 }
 
 @media screen and (max-width : 350px){
@@ -659,13 +668,19 @@ footer{
         height: 1000px;
     }
 
-
-
+    
     .chamada .btn{
         width: 80%;
         margin-left: 20px;
 
     }
+
+
+    .cardSlide p img, .cardSlide2 p img, .cardSlide3 p img, .cardSlide4 p img{
+        width: 250px;
+        margin-left: -70px;
+    }
+}
 
    
 
