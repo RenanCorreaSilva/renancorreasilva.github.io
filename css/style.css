@@ -651,12 +651,16 @@ footer{
     }
 
     .projetos .btn{
-        margin-left: -60px;
+        margin-left: -40px;
+    }
+
+    .projetos p{
+        margin-left: -50px;
     }
 
     .cardSlide p img, .cardSlide2 p img, .cardSlide3 p img, .cardSlide4 p img{
         width: 300px;
-        margin-left: -60px;
+        margin-left: 1px;
     }
 }
 
@@ -686,7 +690,8 @@ footer{
 
     .cardSlide p img, .cardSlide2 p img, .cardSlide3 p img, .cardSlide4 p img{
         width: 250px;
-        margin-left: -70px;
+        margin-left: -90px;
+        padding: 0 10px ;
     }
 
 
