@@ -682,7 +682,7 @@ footer{
     }
 
     .home{
-        height: 500px;
+        height: 800px;
     }
 
     .foto{
@@ -714,11 +714,6 @@ footer{
     
 }
 @media screen and (max-width : 380px){
-    .home{
-        height: 1000px;
-    }
-    
-    
     .sobre{
         height: 1500px;
     }
