@@ -322,6 +322,8 @@ nav .menu li{
     font-weight: bold;
 }
 
+
+
 .cardSlide .btn, .cardSlide2 .btn, .cardSlide3 .btn, .cardSlide4 .btn {
     margin-left: -30px;
 }
@@ -513,20 +515,9 @@ footer{
         }
 
 
-        .cardSlide .btn, .cardSlide2 .btn, .cardSlide3 .btn, .cardSlide4 .btn{
-            margin-left: -20px;
-
-        }
-
-        .cardSlide p img, .cardSlide2 p img, .cardSlide3 p img, .cardSlide4 p img{
-            width: 400px;
-            padding: 0 2%;
-            margin-left: -50px;
-        }
 
         .cardSlide .btn a, .cardSlide2 .btn a, .cardSlide3 .btn a, .cardSlide4 .btn a{
             margin-bottom: 10px;
-            margin-left: 40px;
         }
 
         .card1{
@@ -596,11 +587,10 @@ footer{
     .cardSlide .btn, .cardSlide2 .btn, .cardSlide3 .btn, .cardSlide4 .btn{
         display: flex;
         flex-direction: column;
+        margin-left: -20px;
     }
 
-    .cardSlide p img, .cardSlide2 p img, .cardSlide3 p img, .cardSlide4 p img{
-        width: 350px;
-    }
+
 
     .sobre{
         height: 1200px;
@@ -654,9 +644,6 @@ footer{
         height: 1200px;
     }
 
-    .cardSlide p img, .cardSlide2 p img, .cardSlide3 p img, .cardSlide4 p img{
-        width: 300px;
-    }
 }
 
 @media screen and (max-width : 380px){
@@ -681,14 +668,6 @@ footer{
         margin-left: 20px;
 
     }
-
-
-    .cardSlide p img, .cardSlide2 p img, .cardSlide3 p img, .cardSlide4 p img{
-        width: 250px;
-    }
-
-
-
 
 }
 
