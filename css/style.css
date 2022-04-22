@@ -528,6 +528,10 @@ footer{
             margin: 10px;
         }
 
+        .card1{
+            border: none;
+        }
+
 
         .sobre{
             height: 850px;
@@ -595,7 +599,6 @@ footer{
 
     .cardSlide p img, .cardSlide2 p img, .cardSlide3 p img, .cardSlide4 p img{
         width: 350px;
-        margin-left: -50px;
     }
 
     .sobre{
@@ -650,17 +653,11 @@ footer{
         height: 1200px;
     }
 
-    .projetos .btn{
-        margin-left: -40px;
-    }
 
-    .projetos p{
-        margin-left: -50px;
-    }
+
 
     .cardSlide p img, .cardSlide2 p img, .cardSlide3 p img, .cardSlide4 p img{
         width: 300px;
-        margin-left: 1px;
     }
 }
 
@@ -696,8 +693,6 @@ footer{
 
 
 
-    .projetos .btn a{
-        margin: 10px;
-    }
+
 }
 
