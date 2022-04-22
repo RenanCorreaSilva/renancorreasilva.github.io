@@ -680,11 +680,7 @@ footer{
     .icon{
         margin-left: -20px;
     }
-
-    .home{
-        height: 800px;
-    }
-
+    
     .foto{
         width: 50%;
     }
@@ -714,6 +710,10 @@ footer{
     
 }
 @media screen and (max-width : 380px){
+    .home{
+        height:1000px;
+    }
+    
     .sobre{
         height: 1500px;
     }
