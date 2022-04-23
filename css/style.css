@@ -423,7 +423,7 @@ footer{
 
 
 
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 1100px){
     body{
         overflow-x: hidden;
     }
@@ -441,30 +441,52 @@ footer{
 
     .projetosflex{
         flex-direction: column;
-        width: 100%;
-        align-items: center;    
+        width: 100%;  
+        margin-left: 0px;
     }
 
     .card1{
         width: 100%;
+        border-right: none;
+        border-bottom: 5px double aqua;
+    }
+
+    .card1:last-child{
+        border: none;
     }
 
     .cardSlide .btn, .cardSlide2 .btn, .cardSlide3 .btn, .cardSlide4 .btn {
        margin-left: 250px;
     }
+
+
+    
+    footer{
+        display: inline-block;
+        height: 120px;
+    }
+
+    .social{
+        width: 100%;
+    }
 }
 
-@media screen and (max-width: 850px){
 
+@media screen and (max-width: 900px){
+
+    .home{
+        height: 900px;
+    }
 
     .chamada{
         position: absolute;
-        top: -10px;            
+        top: -10px;        
     }
     
     .chamada h2{
         margin-top: 500px;
         text-align: center;
+        padding: 0 2%;
     }
 
     .chamada p{
@@ -476,7 +498,7 @@ footer{
     }
 
     .icon{
-        left: -120px;
+      left: 90px;
     }
 
     .seta{
@@ -490,6 +512,26 @@ footer{
     .menu-mobile{
         display: block;
     }
+
+    .sobre{
+        margin-top: 200px;
+    }
+
+    .sobre{
+        height: 830px;
+    }
+
+    .about .btn{
+        display: flex;
+        flex-direction: column;
+        width: 200px;
+    }
+
+    .about .btn a{
+        margin: 10px;
+    }
+
+
 
     .cardSlide .btn, .cardSlide2 .btn, .cardSlide3 .btn, .cardSlide4 .btn {
         margin-left: 100px;
@@ -545,9 +587,7 @@ footer{
         }
 
 
-        .projetosflex{
-            margin-left: -10px;
-        }
+
 
 
 
@@ -555,16 +595,6 @@ footer{
             margin-bottom: 10px;
         }
 
-        .card1{
-           border-right: none;
-           border-bottom: 5px double aqua;
-        }
-
-
-
-        .sobre{
-            height: 850px;
-        }
 
         .sobre{
             display: inline-block;
@@ -580,30 +610,16 @@ footer{
             width: 80%;
         }
 
-        .about .btn{
-            display: flex;
-            flex-direction: column;
-            width: 200px;
-        }
-
-        .about .btn a{
-            margin: 10px;
-        }
 
 
-        footer{
-            display: inline-block;
-        }
-
-        .social{
-            width: 100%;
-        }
-}
+    }
 
 
 @media screen and (max-width:560px){
     
-
+    .home{
+        height: 500px;
+    }
     
 
     .chamada h2{
@@ -677,9 +693,7 @@ footer{
 
 
 @media screen and (max-width: 480px) {
-    .home{
-        height: 500px;
-    }
+   
     
     .icon{
         margin-left: -20px;
