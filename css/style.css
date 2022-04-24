@@ -428,6 +428,11 @@ footer{
         overflow-x: hidden;
     }
 
+    .chamada p{
+       font-size: 30px;
+    }
+
+
     .skills .flex{
         flex-direction: column;
         
@@ -472,7 +477,7 @@ footer{
 }
 
 
-@media screen and (max-width: 900px){
+@media screen and (max-width: 960px){
 
     .home{
         height: 900px;
