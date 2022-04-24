@@ -434,8 +434,12 @@ footer{
 
 
     .skills .flex{
-        flex-direction: column;
-        
+        flex-direction: column;     
+        align-items: center;
+    }
+
+    .card{
+       width: 50%;
     }
 
 
@@ -589,6 +593,10 @@ footer{
 
         .skills{
             height: 1600px;
+        }
+
+        .card{
+            width: 90%;
         }
 
 
