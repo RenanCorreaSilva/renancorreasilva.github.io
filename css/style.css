@@ -507,7 +507,7 @@ footer{
     }
 
     .icon{
-      left: 90px;
+        width: 100%;
     }
 
     .seta{
@@ -556,21 +556,15 @@ footer{
             display: block;
         }
 
-
-
         .chamada{
-            position: absolute;
-            top: -10px;            
+            padding: 0 2%;
+                  
         }
         
-        .chamada h2{
-            margin-top: 400px;
+        .chamada h2, .chamada p{
             text-align: center;
         }
 
-        .chamada p{
-            text-align: center;
-        }
 
         .chamada .btn{
             display: flex;
@@ -624,7 +618,7 @@ footer{
 
     
     .icon{
-        left: -70px;
+        width: 100%;
     
     }
 
