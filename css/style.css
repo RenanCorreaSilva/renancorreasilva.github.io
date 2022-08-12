@@ -660,6 +660,9 @@ footer{
 
 @media screen and (max-width: 480px) {
    
+    .chamada .btn a{
+        margin-left: 140px;
+    }
     
     .icon{
         margin-left: -20px;
