@@ -328,14 +328,15 @@ nav .menu li{
 }
 
 .card1{
-    margin: 20px;
-    padding: 50px;
+    padding: 50px 2%;
     color: white;
     text-align: center;
     width: 30%;
     border-right: 5px double aqua;
+}
 
-    
+.card1:last-child{
+    border-right: none;
 }
 
 .card1 p img{
@@ -370,19 +371,17 @@ nav .menu li{
 footer{
     width: 100%;
     text-align: center;
-    height: 50px;
+    padding: 30px 2%;
     background-color: #050d1a;
 }
 
 .direitos{
     float: left;
     margin-left: 200px;
-    padding: 20px;
     color: white;
 }
 
 .social{
-    padding: 20px;
     float: right;
 }
 
@@ -409,9 +408,11 @@ footer{
 
 
     .projetosflex{
-        width: 80%;
-        margin-left: 140px;
         flex-wrap: wrap;
+    }
+    
+    .card1{
+        width: 50%;
     }
 
     .card1:nth-child(2), .card1:nth-child(4) {
@@ -420,7 +421,7 @@ footer{
 
  
     .cardSlide .btn, .cardSlide2 .btn, .cardSlide3 .btn, .cardSlide4 .btn{
-        margin-left: -90px;
+        margin-left: 90px;
     }
 }
 
@@ -443,11 +444,6 @@ footer{
 
     .card{
        width: 50%;
-    }
-
-
-    .skills{
-        height: 1500px;
     }
 
 
@@ -476,10 +472,10 @@ footer{
     
     footer{
         display: inline-block;
-        height: 120px;
     }
 
     .social{
+        padding: 10px;
         width: 100%;
     }
 }
@@ -628,12 +624,6 @@ footer{
 
 @media screen and (max-width:560px){
     
-   
-    
-
-  
-
-    
     .chamada .btn{
         width: 100%;
         margin: 0;
@@ -661,12 +651,6 @@ footer{
     }
 
 
-
-    .sobre{
-        height: 1200px;
-    }
-
-
     .about .btn{
         display: flex;
         flex-direction: column;
@@ -678,17 +662,10 @@ footer{
     }
 
 
-    footer{
-        display: inline-block;
-        height: 150px;
-    }
+    
 
     .direitos{
         margin-left: 50px;
-    }
-
-    .social{
-        width: 100%;
     }
 }   
 
@@ -723,24 +700,8 @@ footer{
         margin-left: 20px;
     }
 
-    .sobre{
-        margin-top: 200px;
-        height: 1200px;
-    }
+   
     
-}
-@media screen and (max-width : 380px){
-    .sobre{
-        height: 1500px;
-    }
-
-    
-    .chamada .btn{
-        width: 80%;
-        margin-left: 20px;
-
-    }
-
 }
 
 
