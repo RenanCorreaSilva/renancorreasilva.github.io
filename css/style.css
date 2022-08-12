@@ -260,11 +260,9 @@ nav .menu li{
 }
 
 .skills{
-    margin-top: 80px;
-    height: 550px;
     width: 100%;
     background-color: #050d1a;
-    padding: 20px;
+    padding: 50px;
     text-align: center;
 }
 
@@ -278,9 +276,8 @@ nav .menu li{
 
 .projetos{
     text-align: center;
-    margin-top: 50px;
     width: 100%;
-    padding: 50px;
+    padding: 50px 2%;
 }
 
 .projetos h2:first-child {
@@ -306,6 +303,7 @@ nav .menu li{
     width: 30%;
     border-right: 5px double aqua;
 
+    
 }
 
 .card1 p img{
@@ -323,9 +321,12 @@ nav .menu li{
 }
 
 
-
 .cardSlide .btn, .cardSlide2 .btn, .cardSlide3 .btn, .cardSlide4 .btn {
     margin-left: -30px;
+}
+
+.cardSlide .btn a, .cardSlide2 .btn a, .cardSlide3 .btn a, .cardSlide4 .btn a {
+    padding: 10px 2%
 }
 
 .cardSlide .btn i, .cardSlide2 .btn i, .cardSlide3 .btn i, .cardSlide4 .btn i{
@@ -413,6 +414,11 @@ footer{
     .projetosflex{
         width: 80%;
         margin-left: 140px;
+        flex-wrap: wrap;
+    }
+
+    .card1:nth-child(2), .card1:nth-child(4) {
+        border-right: none;
     }
 
  
@@ -466,6 +472,7 @@ footer{
 
     .cardSlide .btn, .cardSlide2 .btn, .cardSlide3 .btn, .cardSlide4 .btn {
        margin-left: 250px;
+       padding: 0 2%;
     }
 
 
@@ -593,6 +600,7 @@ footer{
 
         .skills{
             height: 1600px;
+            margin-top: 100px;
         }
 
         .card{
