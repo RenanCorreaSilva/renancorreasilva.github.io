@@ -448,6 +448,10 @@ footer{
             display: block;
         }
 
+        .seta{
+            display: none;
+        }
+
         .foto{
             margin-left: 50px;
             width: 80%;
