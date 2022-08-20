@@ -31,27 +31,21 @@ body,html{
   
 /** FRAMEWORK **/
 .container{
+    padding: 0 2%;
     max-width: 1280px;
     margin: 0 auto;
 }
 
-.btn {
-    font-size: 20px;
-    margin-top: 50px;
-}
 
 .btn a{
-    margin-left: 25px;
+    display: inline-block;
     padding: 15px;
     text-decoration: none;
     color: white;
     border: 2px solid aqua;
     border-radius: 20px;
     transition: 0.3s;
-}
-
-.btn span{
-    padding-left: 20px;
+    font-size: 20px;
 }
 
 .btn :hover{
@@ -63,34 +57,6 @@ body,html{
     clear: both;
 }
 
-.flex{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-
-.card{
-    margin: 20px;
-    border: 1px solid aqua;
-    color: white;
-    text-align: center;
-    border-radius: 10px;
-    background-color: #040a14;
-}
-
-.card i{
-    padding: 20px;
-}
-
-.card h2{
-    padding: 20px;
-    text-transform: uppercase;
-}
-
-.card p{
-    padding: 20px;
-}
 
 
 
@@ -98,33 +64,41 @@ body,html{
 /*------------ SITE ---------*/
 
 
+/**HEADER**/
+
 header{
     position: fixed;
     width: 100%;
     z-index: 999;
     top: 0;
-}
-
-header nav{
-    display: fixed;
+    padding: 20px 0;
     border-bottom: 5px solid #112c4bfd;
-    width: 100%;
-    height: 100px;
-    padding: 0 15%;
     background-color: #050d1a;
 }
 
-header nav h2 a{
+
+header h2 a{
     float: left;
-    background-color: transparent;
-    padding: 25px 2%;
     font-size: 30px;
     color: aqua;
     text-decoration: none;
 }
 
-header nav ul li a{
-    background-color: transparent;
+
+.menu{
+    float: right;  
+}
+
+
+.menu ul li{
+    display: inline-block;
+    padding: 0 5px;
+    font-size: 25px;
+    margin-top: 5px;
+}
+
+
+nav ul li a{
     text-decoration: none;
     color: white;
     font-weight: bold;
@@ -133,47 +107,24 @@ header nav ul li a{
     transition:0.3s;
 }
 
-
 nav ul a:hover{
-
     border-bottom: 3px solid aqua;
-
-}
-
-nav .menu{
-    background-color: transparent;
-    float: right;
-    padding: 35px 2%;  
-}
-
-nav .menu li{
-    font-size: 20px;
-    padding-right: 15px;
-    background-color: transparent;
-    display: inline-block;
-    text-decoration: none;
 }
 
 .menu-mobile{
     display: none;
     float: right;
-    width: 28px;
-    height: 28px;
-    margin-top: 7px;
-    cursor: pointer;
-    margin-top: 20px;
 
 }
 
 .menu-mobile ul{
     display: none;
-    z-index: 999;
     width: 100%;
     text-align: center;
     background-color:#0c1e33;
     position: absolute;
     right: 0;
-    top: 90px;
+    top: 80px;
 }
 
 
@@ -184,42 +135,58 @@ nav .menu li{
 }
 
 .menu-mobile i{
-    position: absolute;
-    top: 30px;
+    cursor: pointer;
     font-size: 30px;
     color: aqua;
 }
 
 
+/**HOME***/
+
+
 .home{
-    margin-top: 100px;
-    height: 850px;
+    margin-top: 80px;
+    padding: 280px 0;
     background: linear-gradient(0deg, #050d1a 0%, rgba(2,1,8,1) 100%);
 }
 
 .chamada{
-    width: 100%;
+    text-align: left;
     font-size: 35px;
     float: left;
     color: aqua;
-    padding: 100px 0;
+    padding-bottom: 10px;
 }
 
-
-
 .chamada h2{
-    padding-bottom: 25px;
+    padding: 10px;
+}
+
+.chamada p{
+    padding: 10px;
 }
 
 .chamada .btn{
     float: left;
+    margin-top: 30px;
 }
 
-.chamada img{
-    position: relative;
-    float: right;
-    animation: move 1s infinite;
+.chamada a{
+    margin-left: 10px;
 }
+
+.icon{
+    float: right;
+    margin-top: -100px;
+}
+
+.icon img{
+    animation: move 1s infinite;
+    position: relative;
+    width: 100%;
+}
+
+
 
 @keyframes move {
     0%   {top: 0px;}
@@ -230,10 +197,11 @@ nav .menu li{
 
 .seta{
     position: absolute; 
-    bottom: 10px; 
+    bottom: 0px; 
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
     width: 50px; 
-    left: 49%;
-    z-index: 999;
     animation: down 1.5s infinite forwards;
 }
 
@@ -254,18 +222,17 @@ nav .menu li{
       }
 }
 
+/**SOBRE***/
+
 .sobre{
-    margin-top: 100px;
-    padding: 50px 2%;
+  padding: 50px 0;
 }
 
 
 .foto{
-    width: 30%;
-    padding-top: 20px;
     float: left;
+    width: 40%;
 }
-
 
 .foto img{
     width: 100%;
@@ -273,29 +240,34 @@ nav .menu li{
 }
 
 .about{
-    width: 60%;
     float: right;
-    padding-top: 50px;
+    width: 60%;
+    padding: 20px;
 }
 
 .about h2{
-    width: 150px;
+    display: inline-block;
     color: white;
     border-bottom: 5px solid aqua;
 }
 
 .about p{
+    padding: 10px;
     color: white;
     font-size: 25px;
-    padding: 2%;
 
 }
 
+.sobre .btn{
+    padding: 20px;
+}
+
+
+/**SKILLS**/
+
 .skills{
-    margin-top: 200px;
-    width: 100%;
     background-color: #050d1a;
-    padding: 50px;
+    padding: 50px 0;
     text-align: center;
 }
 
@@ -307,13 +279,50 @@ nav .menu li{
     border-bottom: 5px solid aqua;
 }
 
-.projetos{
-    text-align: center;
+.flex{
     width: 100%;
-    padding: 50px 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
 }
 
-.projetos h2:first-child {
+.card{
+    width: 20%;
+    margin: 20px;
+    border: 1px solid aqua;
+    color: white;
+    border-radius: 10px;
+    background-color: #040a14;
+}
+
+.card i{
+    padding: 20px;
+}
+
+.card h2{
+    padding: 20px;
+    text-transform: uppercase;
+}
+
+.card p{
+    padding: 20px;
+}
+
+
+
+/**PROJETOS**/
+
+.projetos{
+    text-align: center;
+    padding: 50px 0;
+}
+
+.projetos .container{
+    max-width: 100%;
+}
+
+
+.projetos .container > h2{
     display: inline-block;
     color: white;
     margin-bottom: 1rem;
@@ -323,62 +332,54 @@ nav .menu li{
 
 .projetosflex{
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
 
 }
 
 .card1{
-    padding: 50px 2%;
+    width: 20%;
+    padding: 20px;
+    border: 1px solid aqua;
     color: white;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.card1 .btn{
     text-align: center;
-    width: 30%;
-    border-right: 5px double aqua;
+    justify-content: center;
 }
 
-.card1:last-child{
-    border-right: none;
+.card1 .btn i{
+    padding: 5px;
 }
 
-.card1 p img{
-    margin-bottom: 15px;
-    width: 100%;
-}
-
-.card1 p{
-    padding: 15px;
-}
-
-.card1 span{
-    color: aqua;
-    font-weight: bold;
+.cardSlide .btn a, .cardSlide2 .btn a, .cardSlide3 .btn a, .cardSlide4 .btn a{
+    font-size: 15px;
+    padding: 10px;
+    margin: 10px;
 }
 
 
-.cardSlide .btn, .cardSlide2 .btn, .cardSlide3 .btn, .cardSlide4 .btn {
-    margin-left: -30px;
+.cardSlide, .cardSlide2, .cardSlide3, .cardSlide4{
+    padding: 10px;
 }
 
-.cardSlide .btn a, .cardSlide2 .btn a, .cardSlide3 .btn a, .cardSlide4 .btn a {
-    padding: 10px 2%
-}
-
-.cardSlide .btn i, .cardSlide2 .btn i, .cardSlide3 .btn i, .cardSlide4 .btn i{
-    padding-right: 8px;
+.cardSlide p, .cardSlide2 p, .cardSlide3 p, .cardSlide4 p{
+    padding: 10px 0;
 }
 
 
+/**FOOTER**/
 
 footer{
-    width: 100%;
-    text-align: center;
-    padding: 30px 2%;
+    padding: 30px 0;
     background-color: #050d1a;
 }
 
 .direitos{
     float: left;
-    margin-left: 200px;
     color: white;
 }
 
@@ -392,162 +393,52 @@ footer{
     padding-right: 10px;
 }
 
-@media screen and (max-width: 1400px){
-    .home{
-        padding-top: 0px;
-        height: 570px;
-    }
 
-    .chamada img{
-        position: absolute;
-        right: 0;
-    }
+/**MEDIA QUERYS***/
 
-    .seta{
-        bottom:27px ;
-    }
-
-
-    .projetosflex{
-        flex-wrap: wrap;
-    }
-    
+@media screen and (max-width:1440px){
     .card1{
-        width: 50%;
-    }
-
-    .card1:nth-child(2), .card1:nth-child(4) {
-        border-right: none;
-    }
-
- 
-    .cardSlide .btn, .cardSlide2 .btn, .cardSlide3 .btn, .cardSlide4 .btn{
-        margin-left: 90px;
+        width: 40%;
     }
 }
 
 
-
-@media screen and (max-width: 1100px){
-    body{
-        overflow-x: hidden;
+@media screen and (max-width:960px){
+    .sobre .btn{
+        text-align: center;
     }
 
-    .chamada p{
-       font-size: 30px;
-    }
-
-
-    .skills .flex{
-        flex-direction: column;     
-        align-items: center;
-    }
-
-    .card{
-       width: 50%;
-    }
-
-
-    .projetosflex{
-        flex-direction: column;
-        width: 100%;  
-        margin-left: 0px;
-    }
-
-    .card1{
-        width: 100%;
-        border-right: none;
-        border-bottom: 5px double aqua;
-    }
-
-    .card1:last-child{
-        border: none;
-    }
-
-    .cardSlide .btn, .cardSlide2 .btn, .cardSlide3 .btn, .cardSlide4 .btn {
-       margin-left: 250px;
-       padding: 0 2%;
-    }
-
-
-    
-    footer{
+    .sobre .btn a{
+        margin: 10px;
+        width: 50%;
         display: inline-block;
     }
 
-    .social{
-        padding: 10px;
-        width: 100%;
-    }
-}
-
-
-@media screen and (max-width: 960px){
-
-    .home{
-        height: 900px;
+    .flex{
+        justify-content: center;
     }
 
-    .chamada{
-        position: absolute;
-        top: -10px;        
+    .card{
+        width: 50%;
     }
-    
-    .chamada h2{
-        margin-top: 500px;
-        text-align: center;
-        padding: 0 2%;
-    }
-
-    .chamada p{
-        text-align: center;
-    }
-
-    .chamada .btn{
-        margin-left: 220px;
-    }
-
-    .icon{
-        width: 100%;
-    }
-
-    .seta{
-        bottom: -25px;
-    }
-
-    .menu{
-        display: none;
-    }
-
-    .menu-mobile{
-        display: block;
-    }
-
-    .sobre{
-        height: 830px;
-    }
-
-    .about .btn{
-        display: flex;
-        flex-direction: column;
-        width: 200px;
-    }
-
-    .about .btn a{
-        margin: 10px;
-    }
-
-
-
-    .cardSlide .btn, .cardSlide2 .btn, .cardSlide3 .btn, .cardSlide4 .btn {
-        margin-left: 100px;
-     }
-
 }
 
 
 @media screen and (max-width: 768px){
          
+        .home{
+            padding: 150px 0;
+        }
+
+        .chamada{
+            margin-top: 50px;
+            text-align: center;
+        }
+
+        .chamada .btn{
+            width: 100%;
+            text-align: center;
+        }
 
         .menu{
             display: none;
@@ -557,133 +448,32 @@ footer{
             display: block;
         }
 
-        .chamada{
-            padding: 0 2%;
-                  
+        .foto{
+            margin-left: 50px;
+            width: 80%;
+            align-content: center;
         }
         
-        .chamada h2, .chamada p{
-            text-align: center;
-        }
-
-
-        .chamada .btn{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            width: 50%;
-            
-        }
-
-        .chamada .btn a{ 
-            margin-bottom: 10px;
-            margin-right: 100px;
-        }
-
-        .card{
-            width: 90%;
-        }
-
-
-        .cardSlide .btn a, .cardSlide2 .btn a, .cardSlide3 .btn a, .cardSlide4 .btn a{
-            margin-bottom: 10px;
-        }
-
-
-        .sobre{
-            display: inline-block;
-            height: 1100px;
-        }
-    
-        .sobre .foto{
-            width: 80%;
-            margin-left: 50px;
-        }
-    
         .about{
+            width: 100%;
+        }
+
+        .card1{
             width: 80%;
         }
 
+        .direitos{
+            width: 100%;
+        }
 
-
+        .social{
+            text-align: center;
+            width: 100%;
+            margin-top: 10px;
+        }
+        
     }
 
 
-@media screen and (max-width:560px){
-    
-    .chamada .btn a{
-        margin: 5px auto;
-        margin-left: -50px;
-    }
-
-    
-    .icon{
-        width: 100%;
-    
-    }
-
-    .card1{
-        width: 100%;
-    }
-
-    .cardSlide .btn, .cardSlide2 .btn, .cardSlide3 .btn, .cardSlide4 .btn{
-        display: flex;
-        flex-direction: column;
-        margin-left: -20px;
-    }
-
-
-    .about .btn{
-        display: flex;
-        flex-direction: column;
-        width: 200px;
-    }
-
-    .about .btn a{
-        margin: 10px;
-    }
-
-
-    
-
-    .direitos{
-        margin-left: 50px;
-    }
-}   
-
-
-@media screen and (max-width: 480px) {
-   
-    .chamada .btn a{
-        margin-left: 140px;
-    }
-    
-    .icon{
-        margin-left: -20px;
-    }
-    
-    .foto{
-        width: 50%;
-    }
-    
-    .sobre .btn a{
-        font-size: 15px;
-    }
-
-    .about p{
-        font-size: 20px;
-        margin-left: -20px;
-    }
-
-
-    .chamada .btn{
-        width: 80%;
-        margin-left: 20px;
-    }
-
-   
-    
-}
 
 

@@ -15,17 +15,19 @@
 </head>
 <body>
     <header>
-        <nav>
-            <h2><a href="#">&lsaquo; Renan /&rsaquo;</a></h2>
+        <div class="container">
+            <h2><a href="#">&lsaquo; RENAN /&rsaquo;</a></h2>
 
-            <ul class="menu">
+            <nav class="menu">
+            <ul>
                 <li><a href="#chamada">HOME</a></li>
                 <li><a href="#skills">SKILLS</a></li>
                 <li><a href="#projetos">PROJECTS</a></li>
                 <li><a href="#sobre">ABOUT ME</a></li>
             </ul>
+            </nav> <!--MENU-->
 
-            <div class="menu-mobile">
+            <nav class="menu-mobile">
                 <i class="fa-solid fa-bars"></i>
             <ul>
                 <li><a href="#chamada">HOME</a></li>
@@ -33,36 +35,40 @@
                 <li><a href="#skills">SKILLS</a></li>
                 <li><a href="#projetos">PROJECTS</a></li>
             </ul>
-        </div>       
+        </nav><!--MENU-MOBILE-->
+
         <div class="clear"></div>
+    </div><!--container-->
     </header>   
+
 
     <section class="home" id="chamada">
         <div class="container">
+            <div class="icon">
+                <img  src="assets/9e98af001b2246d89c2d.png">
+
+            </div><!--icon-->
         <div class="chamada">
-            <img class="icon" src="assets/9e98af001b2246d89c2d.png">
             <h2>RENAN CORREA</h2>
             <P>DESENVOLVEDOR FRONT-END</P>
-
+           
             <div class="btn">
                 <a  href="https://github.com/RenanCorreaSilva" target="_blank">
                     <i style="padding-right:8px; background-color: transparent;" class="fa-brands fa-github"></i>
                     GitHub
                 </a>
-
+    
                 <a href="https://www.linkedin.com/in/renancorreadasilva/" target="_blank">
                     <i style="padding-right:8px; background-color: transparent;"class="fa-brands fa-linkedin"></i>
                     Linkedin
                 </a>
             </div>   <!--btn--> 
-
-            
-            <div class="clear"></div>
         </div><!--chamada-->
 
-        </div><!--container-->
+        <a href="#sobre"><img class="seta" src="assets/down-chevron.png" /></a>
         
-            <a href="#sobre"><img class="seta" src="assets/down-chevron.png" /></a>
+        <div class="clear"></div>
+    </div><!--container-->
     </section>
 
     <section class="sobre" id="sobre">
@@ -91,7 +97,6 @@
     <section class="skills" id="skills">
         <div class="container">
                 <h2>SKILLS</h2>
-
 
         <div class="flex">
 
@@ -132,6 +137,7 @@
 
 
     <section class="projetos" id="projetos">
+        <div class="container">
                 <h2>PROJETOS</h2>
 
             <div class="projetosflex">
@@ -182,6 +188,7 @@
                     <p>
                     Essa landing page foi desenvolvida com <span>HTML, CSS </span> Projeto feito para empresa com planos de assinatura, utilizando efeito parallax.
                     </p>
+
                     <div style="display: flex;" class="btn">
                         <a target="_blank"  href="https://renancorreasilva.github.io/PROJETO_06--LANDINGPAGE-PARALLAX/"><i style="background-color: transparent;" class="fa-solid fa-link"></i>Visualizar</a>
 
@@ -189,7 +196,7 @@
                     </div>        
                 </div><!--slide-->
 
-                <img prev style="width: 30px; cursor: pointer; margin-right: 20px; margin-top: 50px;" src="https://img.icons8.com/fluency/48/000000/left.png"/>
+                <img prev style="width: 30px; cursor: pointer; margin-right: 20px; margin-top: 20px;" src="https://img.icons8.com/fluency/48/000000/left.png"/>
                 <img next style="width: 30px; cursor: pointer;" src="https://img.icons8.com/fluency/48/000000/right.png"/>
                 </div><!--card1-->
 
@@ -224,12 +231,12 @@
                     </div>
                 </div><!--slide-->
 
-                <img prev2 style="width: 30px; cursor: pointer; margin-right: 20px; margin-top: 50px;" src="https://img.icons8.com/fluency/48/000000/left.png"/>
+                <img prev2 style="width: 30px; cursor: pointer; margin-right: 20px; margin-top: 20px;" src="https://img.icons8.com/fluency/48/000000/left.png"/>
                 <img next2 style="width: 30px; cursor: pointer;" src="https://img.icons8.com/fluency/48/000000/right.png"/>
                 </div><!--card1-->
 
                 <div class="card1">
-                    <h2 style="border-bottom: none;">Portoflios</h2>
+                    <h2 style="border-bottom: none;">Portóflios</h2>
 
 
                     <div class="cardSlide3">
@@ -257,7 +264,7 @@
                     </div>
                 </div><!--slide-->
 
-                <img prev3 style="width: 30px; cursor: pointer; margin-right: 20px; margin-top: 50px;" src="https://img.icons8.com/fluency/48/000000/left.png"/>
+                <img prev3 style="width: 30px; cursor: pointer; margin-right: 20px; margin-top: 20px;" src="https://img.icons8.com/fluency/48/000000/left.png"/>
                 <img next3 style="width: 30px; cursor: pointer;" src="https://img.icons8.com/fluency/48/000000/right.png"/>
                 </div><!--card1-->
 
@@ -291,12 +298,14 @@
                     </div>
                 </div><!--slide-->
 
-                <img prev4 style="width: 30px; cursor: pointer; margin-right: 20px; margin-top: 50px;" src="https://img.icons8.com/fluency/48/000000/left.png"/>
+                <img prev4 style="width: 30px; cursor: pointer; margin-right: 20px; margin-top: 20px;" src="https://img.icons8.com/fluency/48/000000/left.png"/>
                 <img next4 style="width: 30px; cursor: pointer;" src="https://img.icons8.com/fluency/48/000000/right.png"/>
                 </div><!--card1-->
 
 
             </div><!--projetosFlex-->
+
+        </div><!--container-->
 
     </section><!--projetos-->
 
@@ -314,9 +323,9 @@
             <a target="_blank" href="https://www.instagram.com/rehcorrea_/"><i class="fa-brands fa-instagram"></i></a>
 
             <a target="_blank" href="https://api.whatsapp.com/send?phone=5521979216115&text=Ol%C3%A1%20Renan%2C%20tenho%20em%20interesse%20em%20criar%20um%20site"><i style="padding-right: 8px; background-color: transparent;" class="fa-brands fa-whatsapp"></i></a>
-        </div>
+        </div><!--social-->
         <div class="clear"></div>
-        </div>
+        </div><!--container-->
 
     </footer>
 
