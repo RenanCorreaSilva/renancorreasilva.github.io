@@ -79,7 +79,7 @@ header{
 
 header h2 a{
     float: left;
-    font-size: 30px;
+    font-size: 25px;
     color: aqua;
     text-decoration: none;
 }
@@ -93,7 +93,7 @@ header h2 a{
 .menu ul li{
     display: inline-block;
     padding: 0 5px;
-    font-size: 25px;
+    font-size: 20px;
     margin-top: 5px;
 }
 
@@ -146,7 +146,7 @@ nav ul a:hover{
 
 .home{
     margin-top: 80px;
-    padding: 280px 0;
+    padding: 200px 0;
     background: linear-gradient(0deg, #050d1a 0%, rgba(2,1,8,1) 100%);
 }
 
@@ -156,6 +156,7 @@ nav ul a:hover{
     float: left;
     color: aqua;
     padding-bottom: 10px;
+    width: 50%;
 }
 
 .chamada h2{
@@ -178,6 +179,7 @@ nav ul a:hover{
 .icon{
     float: right;
     margin-top: -100px;
+    width: 50%;
 }
 
 .icon img{
@@ -232,12 +234,15 @@ nav ul a:hover{
 .foto{
     float: left;
     width: 40%;
+    height: 500px;
+    background: gray;
+    background-image: url('../assets/20201108_125315.jpg');
+    background-size: cover;
+    background-position: center;
+    border: 3px solid aqua;
 }
 
-.foto img{
-    width: 100%;
-    border: 5px solid aqua;
-}
+
 
 .about{
     float: right;
@@ -252,9 +257,10 @@ nav ul a:hover{
 }
 
 .about p{
+    margin-top: 50px;
     padding: 10px;
     color: white;
-    font-size: 25px;
+    font-size: 20px;
 
 }
 
@@ -398,14 +404,49 @@ footer{
 
 @media screen and (max-width:1440px){
     .card1{
-        width: 40%;
+        width: 25% ;
     }
 }
+
+@media screen and (max-width:1100px){
+    .card1{
+        width: 35% ;
+    }
+}
+
 
 
 @media screen and (max-width:960px){
     .sobre .btn{
         text-align: center;
+    }
+
+    .home{
+        padding: 100px 0;
+    }
+
+    .chamada{
+        margin-top: 50px;
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .chamada .btn{
+        width: 100%;
+        
+    }
+
+    .icon{
+        float: none;
+        width: 80%;
+        text-align: center;
+    }
+
+    .icon img{
+        width: 500px;
+        left: 50%;
+        transform: translate(-50%);
     }
 
     .sobre .btn a{
@@ -430,6 +471,7 @@ footer{
             padding: 50px 0;
         }
 
+
         .chamada{
             margin-top: 50px;
             text-align: center;
@@ -438,6 +480,14 @@ footer{
         .chamada .btn{
             width: 100%;
             text-align: center;
+        }
+
+        .icon{
+            width: 100%;
+        }
+        
+        .icon img{
+            width: 100%;
         }
 
         .menu{
@@ -461,7 +511,7 @@ footer{
         .about{
             width: 100%;
         }
-
+        
         .card1{
             width: 80%;
         }
