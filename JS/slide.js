@@ -141,7 +141,7 @@ $(function(){
             $('.cardSlide5').fadeOut();
             $('.cardSlide5').eq(0).fadeIn();
         }
-        function navegarSlide4(){
+        function navegarSlide5(){
             $('[next5]').click(function(){
                   curIndex5++;
                   if(curIndex5 >= amtSlide5)
