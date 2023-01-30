@@ -1,5 +1,7 @@
 $(function(){
 
+
+  /**LANDINGS PAGES */
     var amtSlide = $('.cardSlide').length;
     var curIndex = 0;
 
@@ -30,7 +32,7 @@ $(function(){
 
 
 
-
+/**LOJAS/DASHBOARD */
 
     var amtSlide2 = $('.cardSlide2 p').length;
     var curIndex2 = 0;
@@ -59,6 +61,10 @@ $(function(){
       $('.cardSlide2').eq(curIndex2).fadeIn(1500);
     })
     }
+
+
+
+    /**PORTFOLIOS */
     
     var amtSlide3 = $('.cardSlide3 p').length;
     var curIndex3 = 0;
@@ -89,7 +95,7 @@ $(function(){
     }
 
 
-
+/**BOOTSTRAP-MATERIALIZE */
 
     
     var amtSlide4 = $('.cardSlide4 p').length;
@@ -120,8 +126,13 @@ $(function(){
     })
     }
 
-    var amtSlide4 = $('.cardSlide4 p').length;
-    var curIndex4 = 0;
+
+
+/*** JAVASCRIPPT */
+
+
+    var amtSlide5 = $('.cardSlide4 p').length;
+    var curIndex5 = 0;
 
     iniciarSlide5() ;
     navegarSlide5();
