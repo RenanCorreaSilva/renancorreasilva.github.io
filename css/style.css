@@ -361,59 +361,20 @@ nav ul a:hover{
     padding: 5px;
 }
 
-.cardSlide .btn a, .cardSlide2 .btn a, .cardSlide3 .btn a, .cardSlide4 .btn a{
+.cardSlide .btn a, .cardSlide2 .btn a, .cardSlide3 .btn a, .cardSlide4 .btn a,.cardSlide5 .btn a{
     font-size: 15px;
     padding: 10px;
     margin: 10px;
 }
 
 
-.cardSlide, .cardSlide2, .cardSlide3, .cardSlide4{
+.cardSlide, .cardSlide2, .cardSlide3, .cardSlide4, .cardSlide5{
     padding: 10px;
 }
 
-.cardSlide p, .cardSlide2 p, .cardSlide3 p, .cardSlide4 p{
+.cardSlide p, .cardSlide2 p, .cardSlide3 p, .cardSlide4 p, .cardSlide5{
     padding: 10px 0;
 }
-
-
-/* the parent */
-
-.slick-slide{
-    margin: 45px; 
-  }
-
-.slick-slider{
-    position: relative;
-}
-
-.slick-next, .slick-prev{
-    z-index: 2;
-    padding: 10px;
-    border: 0;
-    border-radius: 50px;
-    font-size: 15px;
-    cursor: pointer;
-    position: absolute;
-    bottom: 50%;
-    color: black;
-    opacity: 0.3;
-    background-color: #ccc;
-    transition: 0.5s;
-}
-
-.slick-next:hover, .slick-prev:hover{
-    opacity: 1;
-}
-
-.slick-next{
-    right: 15px;
-}
-
-.slick-prev{
-    left: 25px;
-}
-
 
 
 /**FOOTER**/

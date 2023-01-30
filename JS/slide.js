@@ -119,7 +119,42 @@ $(function(){
       $('.cardSlide4').eq(curIndex4).fadeIn(1500);
     })
     }
+
+    var amtSlide5 = $('.cardSlide5 p').length;
+    var curIndex5 = 0;
+
+iniciarSlide5() ;
+navegarSlide5();
+
+    function iniciarSlide5(){
+        $('.cardSlide5').fadeOut();
+        $('.cardSlide5').eq(0).fadeIn();
+    }
+    function navegarSlide4(){
+        $('[next5]').click(function(){
+              curIndex5++;
+              if(curIndex5 >= amtSlide5)
+                curIndex5 = 0
+            $('.cardSlide5').hide();
+            $('.cardSlide5').eq(curIndex5).fadeIn(1500);
+    })
+
+      $('[prev5]').click(function(){
+        curIndex5--;
+        if(curIndex5 < 0)
+          curIndex5 = amtSlide5-1;
+      $('.cardSlide5').hide();
+      $('.cardSlide5').eq(curIndex5).fadeIn(1500);
+      })
+    }
+
+
 })
+
+
+
+
+
 
 
 
