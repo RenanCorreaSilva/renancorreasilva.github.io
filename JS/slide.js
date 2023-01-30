@@ -60,13 +60,6 @@ $(function(){
     })
     }
     
-
-
-
-
-
-
-
     var amtSlide3 = $('.cardSlide3 p').length;
     var curIndex3 = 0;
 
@@ -127,3 +120,6 @@ $(function(){
     })
     }
 })
+
+
+
