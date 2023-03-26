@@ -361,18 +361,18 @@ nav ul a:hover{
     padding: 5px;
 }
 
-.cardSlide .btn a, .cardSlide2 .btn a, .cardSlide3 .btn a, .cardSlide4 .btn a,.cardSlide5 .btn a{
+.cardSlide .btn a, .cardSlide2 .btn a, .cardSlide3 .btn a, .cardSlide4 .btn a,.cardSlide5 .btn a, .cardSlide6 .btn a{
     font-size: 15px;
     padding: 10px;
     margin: 10px;
 }
 
 
-.cardSlide, .cardSlide2, .cardSlide3, .cardSlide4, .cardSlide5{
+.cardSlide, .cardSlide2, .cardSlide3, .cardSlide4, .cardSlide5, .cardSlide6{
     padding: 10px;
 }
 
-.cardSlide p, .cardSlide2 p, .cardSlide3 p, .cardSlide4 p, .cardSlide5{
+.cardSlide p, .cardSlide2 p, .cardSlide3 p, .cardSlide4 p, .cardSlide5, .cardSlide6p{
     padding: 10px 0;
 }
 
