@@ -169,7 +169,7 @@ $(function(){
         iniciarSlide6() ;
         navegarSlide6();
         
-            function iniciarSlide5(){
+            function iniciarSlide6(){
                 $('.cardSlide6').fadeOut();
                 $('.cardSlide6').eq(0).fadeIn();
             }
